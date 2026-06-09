@@ -12,13 +12,15 @@ Built as a QA portfolio project to demonstrate BDD test design, POM structure, a
 
 **Project Structure**
 
+```
 ├── src/
 │   ├── features/          # Gherkin .feature files
 │   ├── step_definitions/  # Cucumber step code
 │   └── pages/             # Page Object Models
 ├── reports/               # Test execution reports
-├── http://playwright.config.ts   # Playwright config
-└── http://package.json
+├── playwright.config.ts   # Playwright config
+└── package.json
+```
 
 **Setup & Run Tests**
 
