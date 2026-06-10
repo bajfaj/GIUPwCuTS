@@ -1,21 +1,21 @@
 **Guiani Web University - QA Automation**
 
-End-to-end test automation for Guiani Web University platform using Playwright + Cucumber + TypeScript.
-
-Built as a QA portfolio project to demonstrate BDD test design, POM structure, and CI-ready automation.
+End-to-end test automation framework for Guiani Web University platform using Playwright, TypeScript, and Cucumber BDD.
 
 **Tech Stack**
-- **Framework**: Playwright + Cucumber BDD 
-- **Language**: TypeScript
+- **Framework**: Playwright Browser Automation
+- **Language**: TypeScript (Type safety)
+- **Gherkin** : Cucumber BDD Scenarios
 - **Pattern**: Page Object Model + Step Definitions
-- **Reports**: HTML + JSON reports in `/reports`
+- **Reports**: Cucumber HTML reports after each run
+- **CI/CD** : Jenkins freestyle job - manual trigger + HTML report publishing
 
 **Project Structure**
 
 ```
 ├── src/
 │   ├── features/          # Gherkin .feature files
-│   ├── step_definitions/  # Cucumber step code
+│   ├── step_definations/  # Cucumber step code
 │   └── pages/             # Page Object Models
 ├── reports/               # Test execution reports
 ├── playwright.config.ts   # Playwright config

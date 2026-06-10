@@ -1,5 +1,5 @@
 import { Page, Locator } from "@playwright/test";
-import { pageFixture } from "../../step-definations/hooks/browserContextFixture";
+import { pageFixture } from "../../step-definitions/hooks/browserContextFixture";
 import { config as loadEnv } from "dotenv";
 
 const env = loadEnv({ path: './env/.env' });

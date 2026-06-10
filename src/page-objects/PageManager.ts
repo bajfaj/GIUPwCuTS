@@ -1,6 +1,6 @@
 import { Page } from "@playwright/test";
 import { BasePage } from "./base/BasePage";
-import { pageFixture } from "../step-definations/hooks/browserContextFixture";
+import { pageFixture } from "../step-definitions/hooks/browserContextFixture";
 import { ContactUsPage } from "./ContactUsPage";
 import { LoginPage } from "./LoginPage";
 
